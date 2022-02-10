@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifApp should return categories list 1`] = `
+<Fragment>
+  <h2>
+    Gif App
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Hannibal"
+      key="Hannibal"
+    />
+    <GifGrid
+      category="Iron Man"
+      key="Iron Man"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`GifApp should return component <GifApp/> 1`] = `
+<Fragment>
+  <h2>
+    Gif App
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;

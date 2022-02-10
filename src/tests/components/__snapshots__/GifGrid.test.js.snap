@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid should return <GifGridItem/> list when data is loaded from useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn animate__delay-1s"
+  >
+    Hannibal
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="abc"
+      key="abc"
+      title="Some thing"
+      url="http://example.com/categoryName/image.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`GifGrid should return component <GifGrid/> 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn animate__delay-1s"
+  >
+    Hannibal
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <p
+      className="animate__animated animate__flash"
+    >
+      Loading...
+    </p>
+  </div>
+</Fragment>
+`;

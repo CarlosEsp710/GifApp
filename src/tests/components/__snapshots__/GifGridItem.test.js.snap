@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGridItem should return component <GifGridItem />" 1`] = `
+<div
+  className="card animate__animated animate__fadeIn animate__delay-1s"
+>
+  <img
+    alt="Title"
+    src="url"
+  />
+  <p>
+    Title
+  </p>
+</div>
+`;
